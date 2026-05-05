@@ -1,0 +1,19 @@
+{
+  "mcpServers": {
+    "financial-cents": {
+      "command": "uv",
+      "args": [
+        "run",
+        "--with",
+        "mcp[cli]",
+        "--with-editable",
+        "D:\\path\\to\\MCP-Financial-Cents",
+        "mcp",
+        "run",
+        "D:/path/to/MCP-Financial-Cents/mcp_fc/server.py:mcp",
+        "--transport",
+        "stdio"
+      ]
+    }
+  }
+}
